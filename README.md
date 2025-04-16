@@ -10,7 +10,7 @@ Dit persoonlijke project is ontwikkeld tijdens semester 2 en is een leerplatform
 - **📄 index.html** – De @Hoofdpagina van de site  
 - **🎨 css/** – Opmaak van de pagina’s  
 - **📁 pages/** – Subpagina’s per software (Premiere Pro, After Effects, CapCut)  
-- **🖼️ assets/** – Afbeeldingen, iconen en video’s  
+- **🖼️ images/** – Afbeeldingen, iconen en video’s  
 
 ---
 
