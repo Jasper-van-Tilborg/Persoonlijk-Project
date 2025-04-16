@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #282a35;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  background-color: #faf9f6;
+  height: 100px;
+}
+
+header .container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.logo {
+  width: 81px;
+  height: 81px;
+  margin-right: 300px;
+  margin-left: 50px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Nav als flexbox met ruimte tussen links en rechts */
+nav {
+  display: flex;
+  flex: 1;
+  margin-left: 40px; /* ruimte tussen logo en nav */
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Algemene styling voor beide ul's */
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #282a35;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Duwt auth-links naar rechts */
+.main-links {
+  margin-right: auto;
+  gap: 80px;
+}
+
+.auth-links {
+  margin-right: 50px;
+}
+
+/* Styling voor de video tutorial sectie */
+.tutorial-video {
+  padding: 40px 0;
+}
+
+.tutorial-video .container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.video-title {
+  font-size: 32px;
+  color: #faf9f6;
+  margin-bottom: 20px;
+}
+
+.video-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.video-info {
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-info p {
+  font-size: 16px;
+  color: #faf9f6;
+}
+
+.video-info strong {
+  color: #faf9f6;
+  font-weight: bold;
+}

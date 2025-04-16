@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #282a35;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  background-color: #faf9f6;
+  height: 100px;
+}
+
+header .container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.logo {
+  width: 81px;
+  height: 81px;
+  margin-right: 300px;
+  margin-left: 50px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Nav als flexbox met ruimte tussen links en rechts */
+nav {
+  display: flex;
+  flex: 1;
+  margin-left: 40px; /* ruimte tussen logo en nav */
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Algemene styling voor beide ul's */
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #282a35;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Duwt auth-links naar rechts */
+.main-links {
+  margin-right: auto;
+  gap: 80px;
+}
+
+.auth-links {
+  margin-right: 50px;
+}
+
+.hero {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerhero {
+  display: flex;
+  color: #faf9f6;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin: auto 0 auto;
+  width: 400px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.premiere-hero {
+  background-color: #00005b;
+  padding: 50px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-premiere {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #faf9f6;
+  gap: 50px;
+  width: 100%;
+}
+
+.container-premiere h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container-premiere p {
+  font-size: 20px;
+  font-weight: 550;
+  width: 375px;
+}
+
+.premiere-left,
+.premiere-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.premiere-right {
+  gap: 100px;
+}
+
+.premiere-button {
+  text-decoration: none;
+  color: #faf9f6;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #6eadd9;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.after-hero {
+  background-color: #d291ff;
+  padding: 50px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-after {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #faf9f6;
+  gap: 50px;
+  width: 100%;
+}
+
+.container-after h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container-after p {
+  font-size: 20px;
+  font-weight: 550;
+  width: 375px;
+}
+
+.after-left,
+.after-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.after-right {
+  gap: 100px;
+}
+
+.after-button {
+  text-decoration: none;
+  color: #faf9f6;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #6eadd9;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.capcut-hero {
+  background-color: #faf9f6;
+  padding: 50px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-capcut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  gap: 50px;
+  width: 100%;
+}
+
+.container-capcut h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container-capcut p {
+  font-size: 20px;
+  font-weight: 550;
+  width: 375px;
+}
+
+.capcut-left,
+.capcut-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.capcut-right {
+  gap: 100px;
+}
+
+.capcut-button {
+  text-decoration: none;
+  color: #faf9f6;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #6eadd9;
+  padding: 15px;
+  border-radius: 15px;
+}
